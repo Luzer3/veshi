@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Нужные вещи — Каталог</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="images/logo.png" alt="Логотип Нужные вещи">
+      <span>Нужные вещи</span>
+    </div>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="about.html">О компании</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="catalog">
+      <h2>Каталог товаров</h2>
+      <div class="products">
+        <article class="product-card">
+          <img src="images/product1.jpg" alt="Правый носок">
+          <h3>Правый носок</h3>
+          <p class="desc">Чуть-чуть поношенный, но постиранный.</p>
+          <p class="price">990 ₽</p>
+          <button type="button" class="btn-cart">В корзину</button>
+        </article>
+        <article class="product-card">
+          <img src="images/product2.jpg" alt="Левый носок">
+          <h3>Левый носок</h3>
+          <p class="desc">Чуть-чуть поношенный, но постиранный.</p>
+          <p class="price">990 ₽</p>
+          <button type="button" class="btn-cart">В корзину</button>
+        </article>
+        <article class="product-card">
+          <img src="images/product3.jpg" alt="Прищепка">
+          <h3>Прищепка</h3>
+          <p class="desc">Сжимает хорошо, цвет красивый.</p>
+          <p class="price">190 ₽</p>
+          <button type="button" class="btn-cart">В корзину</button>
+        </article>
+        <article class="product-card">
+          <img src="images/product4.jpg" alt="Недопитый чай">
+          <h3>Недопитый чай</h3>
+          <p class="desc">Чай с сахаром, пакетик в подарок.</p>
+          <p class="price">390 ₽</p>
+          <button type="button" class="btn-cart">В корзину</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="specs-section">
+      <h2>Сравнение характеристик</h2>
+      <table>
+        <caption>Основные характеристики</caption>
+        <thead>
+          <tr><th>Товар</th><th>Вес</th><th>Гарантия</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Правый носок</td><td>25 г</td><td>14 дней</td></tr>
+          <tr><td>Левый носок</td><td>25 г</td><td>14 дней</td></tr>
+          <tr><td>Прищепка</td><td>6 г</td><td>12 мес.</td></tr>
+          <tr><td>Недопитый чай</td><td>200 г</td><td>до остывания</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <form class="subscribe-form" action="#" method="post">
+      <input type="email" placeholder="Ваш Email" required>
+      <button type="submit">Подписаться</button>
+    </form>
+    <p>© 2026 Нужные вещи. Все права защищены. <a href="#">Наверх</a></p>
+  </footer>
+</body>
+</html>
